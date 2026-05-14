@@ -15,9 +15,9 @@ FetchContent_MakeAvailable(pybind11)
 
 # CGMF include directories
 include_directories(
-    /Users/jagnell/Documents/Research/OSU/Project/CGMF/libcgmf/src
-    /Users/jagnell/Documents/Research/OSU/Project/CGMF/libcgmf/include
-    /Users/jagnell/Documents/Research/OSU/Project/CGMF/data
+    /nfs/stak/users/agnellj/project/CGMF/libcgmf/src
+    /nfs/stak/users/agnellj/project/CGMF/libcgmf/include
+    /nfs/stak/users/agnellj/project/CGMF/data
     
 )
 
@@ -27,7 +27,7 @@ add_library(cgmfwrap MODULE
 
 target_link_libraries(cgmfwrap PRIVATE
     pybind11::module
-    /Users/jagnell/Documents/Research/OSU/Project/CGMF/build/libcgmf/libcgmf.dylib
+    /nfs/stak/users/agnellj/project/CGMF/build/libcgmf/libcgmf.so
 )
 
 # 

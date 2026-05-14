@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared  -o cgmfwrap.so CMakeFiles/cgmfwrap.dir/cgmf_wrapper.cpp.o  -Wl,-rpath,/nfs/stak/users/agnellj/project/CGMF/build/libcgmf /nfs/stak/users/agnellj/project/CGMF/build/libcgmf/libcgmf.so

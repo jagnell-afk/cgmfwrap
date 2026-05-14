@@ -1,0 +1,87 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/nfs/stak/users/agnellj/project/cmake-4.2.3-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/apps/slurm/bin/"
+      - "/apps/slurm/current/bin/"
+      - "/opt/TurboVNC/bin/"
+      - "/nfs/stak/users/agnellj/miniconda3/envs/mcdc-env/bin/"
+      - "/nfs/stak/users/agnellj/miniconda3/condabin/"
+      - "/nfs/stak/users/agnellj/perl5/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/local/apps/bin/"
+      - "/nfs/stak/users/agnellj/bin/"
+      - "/nfs/stak/users/agnellj/project/wrapper/cgmfwrap/build/_deps/pybind11-subbuild/"
+      - "/nfs/stak/users/agnellj/project/cmake-4.2.3-linux-x86_64/bin/"
+      - "/nfs/stak/users/agnellj/project/mcdc/transport/physics/neutron/"
+      - "/nfs/stak/users/agnellj/project/wrapper/cgmfwrap/build/"
+      - "/nfs/stak/users/agnellj/project/CGMF/data/"
+      - "/bin/"
+    searched_directories:
+      - "/apps/slurm/bin/uname"
+      - "/apps/slurm/current/bin/uname"
+      - "/opt/TurboVNC/bin/uname"
+      - "/nfs/stak/users/agnellj/miniconda3/envs/mcdc-env/bin/uname"
+      - "/nfs/stak/users/agnellj/miniconda3/condabin/uname"
+      - "/nfs/stak/users/agnellj/perl5/bin/uname"
+      - "/usr/share/Modules/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/apps/slurm/bin"
+        - "/apps/slurm/current/bin"
+        - "/opt/TurboVNC/bin"
+        - "/nfs/stak/users/agnellj/miniconda3/envs/mcdc-env/bin"
+        - "/nfs/stak/users/agnellj/miniconda3/condabin"
+        - "/nfs/stak/users/agnellj/perl5/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/usr/local/apps/bin"
+        - "/nfs/stak/users/agnellj/bin"
+        - "."
+        - "/nfs/stak/users/agnellj/project/cmake-4.2.3-linux-x86_64/bin"
+        - "/nfs/stak/users/agnellj/project/mcdc/transport/physics/neutron"
+        - "/nfs/stak/users/agnellj/project/wrapper/cgmfwrap/build"
+        - "/nfs/stak/users/agnellj/project/CGMF/data"
+        - "/usr/local/bin"
+        - "/usr/local/apps/bin"
+        - "/nfs/stak/users/agnellj/bin"
+        - "."
+        - "/nfs/stak/users/agnellj/project/cmake-4.2.3-linux-x86_64/bin"
+        - "/nfs/stak/users/agnellj/project/mcdc/transport/physics/neutron"
+        - "/nfs/stak/users/agnellj/project/wrapper/cgmfwrap/build"
+        - "/nfs/stak/users/agnellj/project/CGMF/data"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nfs/stak/users/agnellj/project/cmake-4.2.3-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 4.18.0-553.109.1.el8_10.x86_64 - x86_64
+...
